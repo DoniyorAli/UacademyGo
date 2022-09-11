@@ -14,6 +14,8 @@ func main() {
 	fmt.Printf("%s is %s", givenDate.Format("02-01-2006"), FindWeekday(givenDate))
 }
 
+//*function===========================================================================
+
 func FindWeekday(date time.Time) (weekday string) {
 	weekday = date.Weekday().String()
 	return
