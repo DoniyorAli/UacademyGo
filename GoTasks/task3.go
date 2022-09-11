@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Area of circle inscribed in a square
+//*Area of circle inscribed in a square
 func  area(r float32) (area float32) {
 	radius := r / 2
 	areaSquare := r * r
