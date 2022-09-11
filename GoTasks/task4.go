@@ -8,7 +8,6 @@ func main() {
 		FizzBuzz(i)
 	}
 }
-
 //* function======================================
 
 func FizzBuzz(i int) int{
