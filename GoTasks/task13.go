@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 
@@ -13,6 +16,7 @@ func main() {
 		for j := 1; j <= 10; j++ {
 			if i <= j {
 				fmt.Printf("%s ", x)
+				time.Sleep(50*time.Millisecond)
 			} else {
 				fmt.Print(" ")
 			}
